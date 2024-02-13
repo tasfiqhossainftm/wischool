@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+    --primary-color: #09b451;
+    --secondary-color: #333333;
+    --light-bg: #e4ffff;
+    --black: #000000;
+    --white: #fff;
+   
+    --primary-font: "Poppins", sans-serif;
+    --secondary-font: "Open Sans", sans-serif;
+}
+
+.logo{
+
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+header{
+
+    display: flex;
+    width: 100%;
+
+}
+
+
+
+.navbar ul li{
+    float: left;
+    width: 130px;
+    margin-top: 15px;
+    list-style: none;
+    margin-left: 17px;
+    align-items: center;
+    font: var(--secondary-font);
+    
+
+}
+
+.navbar ul a{
+
+    text-decoration: none;
+    color: #000000;
+
+
+}
+
+.navbar ul li:hover{
+
+    text-decoration: underline    ;
+    transition-duration: 0.5s;
+}
+
+.btn{
+
+    margin-left: 800px;
+    display: flex;
+
+}
+
+.Log{
+
+    width: 106px;
+    height: 44px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 80px;
+    background-color: white;
+    padding: 8px 18px 8px 18px;
+    border: none;
+    color: #09b451;
+    font-size: small;
+
+}
+
+.Log:hover{
+
+    background-color: #09b451;
+    color: white;
+    transition-duration: 0.5s;
+
+}
+
+.Register{
+
+    width: 106px;
+    height: 44px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 2px;
+    background-color: #09b451;
+    color: white;
+
+}
+
+.Register:hover{
+
+    background-color: white;
+    color: #09b451;
+    transition-duration: 0.5s;
+
+}
+
+.hero-section{
+
+    width: 1200px;
+    height: ;
+
+}
+
+.hero-section h1{
+
+
+}
+
+
+.shn{
+
+    margin-left: 430px;
+    margin-top: -550px;
+    width: 400px;
+     
+
+}
+
+.Frame{
+
+    margin-left: 1050px;
+    margin-top: -500px;
+    border-radius: 50%;
+}
+
+.hero-section  ,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: #000000;
+    font-size: 45px;
+    line-height: 90px;
+    font-family:  'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 120;
+    margin-top: 200px;
+    margin-left: 15px;
+}
+
+.btn{
+
+    margin-left: 15px;
+    width: 106px;
+    height: 44px;
+    background-color: #09b451;
+    border: none;
+    border-radius: 5px;
+    padding: 16px;
+    color: wh;
+
+}
